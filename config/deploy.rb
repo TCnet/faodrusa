@@ -3,7 +3,7 @@ set :application, 'faodrusa'
 set :deploy_user, 'deploy'
 
 # setup repo details
-set :scm, :git
+#set :scm, :git
 set :repo_url, 'git@github.com:TCnet/faodrusa.git'
 
 # setup rbenv.
