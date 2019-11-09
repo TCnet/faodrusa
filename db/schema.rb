@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_10_15_111935) do
+ActiveRecord::Schema.define(version: 2019_11_09_132658) do
 
   create_table "action_mailbox_inbound_emails", force: :cascade do |t|
     t.integer "status", default: 0, null: false
@@ -186,6 +186,44 @@ ActiveRecord::Schema.define(version: 2019_10_15_111935) do
     t.datetime "updated_at", precision: 6, null: false
     t.index ["number"], name: "index_spree_customer_returns_on_number", unique: true
     t.index ["stock_location_id"], name: "index_spree_customer_returns_on_stock_location_id"
+  end
+
+  create_table "spree_dislu_albums", force: :cascade do |t|
+    t.string "name"
+    t.string "summary"
+    t.string "csize"
+    t.string "ussize"
+    t.string "brand"
+    t.text "dnote"
+    t.text "description"
+    t.string "dname"
+    t.string "fullname"
+    t.text "keywords"
+    t.text "points"
+    t.text "price"
+    t.text "stock"
+    t.text "asize"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.integer "user_id"
+    t.index ["name"], name: "index_spree_dislu_albums_on_name", unique: true
+    t.index ["user_id"], name: "index_spree_dislu_albums_on_user_id"
+  end
+
+  create_table "spree_dislu_imports", force: :cascade do |t|
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.integer "user_id"
+    t.index ["user_id"], name: "index_spree_dislu_imports_on_user_id"
+  end
+
+  create_table "spree_dislu_templates", force: :cascade do |t|
+    t.string "name"
+    t.text "title"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.integer "user_id"
+    t.index ["user_id"], name: "index_spree_dislu_templates_on_user_id"
   end
 
   create_table "spree_gateways", force: :cascade do |t|
@@ -500,6 +538,7 @@ ActiveRecord::Schema.define(version: 2019_10_15_111935) do
     t.datetime "discontinue_on"
     t.string "amazon_link"
     t.string "amazon_title", default: "Order From Amazon"
+    t.text "bullet_point"
     t.index ["available_on"], name: "index_spree_products_on_available_on"
     t.index ["deleted_at"], name: "index_spree_products_on_deleted_at"
     t.index ["discontinue_on"], name: "index_spree_products_on_discontinue_on"
