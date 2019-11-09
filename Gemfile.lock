@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/TCnet/spree_dislu_album.git
-  revision: bd2492b0a36735d4538bef5ccad6cfdbe1530139
+  revision: 4d387ab748b27ec73048d0329d98cf47f19590b2
   specs:
     spree_dislu_album (0.0.1.alpha)
       spree_backend (>= 3.2.0, < 5.0)
