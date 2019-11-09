@@ -1,13 +1,4 @@
 GIT
-  remote: https://github.com/TCnet/spree_dislu_album.git
-  revision: 4d387ab748b27ec73048d0329d98cf47f19590b2
-  specs:
-    spree_dislu_album (0.0.1.alpha)
-      spree_backend (>= 3.2.0, < 5.0)
-      spree_core (>= 3.2.0, < 5.0)
-      spree_extension
-
-GIT
   remote: https://github.com/TCnet/spree_dislu_link.git
   revision: 52db1e0321eb622819a1d6ccbb9635c95d07b015
   specs:
@@ -472,7 +463,6 @@ DEPENDENCIES
   selenium-webdriver
   spree (~> 4.0)
   spree_auth_devise (~> 4.0)
-  spree_dislu_album!
   spree_dislu_link!
   spree_gateway (~> 3.6)
   spring
