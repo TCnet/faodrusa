@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/TCnet/spree_dislu_album.git
-  revision: 4d387ab748b27ec73048d0329d98cf47f19590b2
+  revision: 45f071efd650cef8b35a53ef27400abe8e3dc165
   specs:
     spree_dislu_album (0.0.1.alpha)
       spree_backend (>= 3.2.0, < 5.0)
@@ -9,7 +9,7 @@ GIT
 
 GIT
   remote: https://github.com/TCnet/spree_dislu_link.git
-  revision: 52db1e0321eb622819a1d6ccbb9635c95d07b015
+  revision: 1dfee785e0ff62d9d38132ed1def5ddf8eac4c86
   specs:
     spree_dislu_link (0.0.1.alpha)
       spree_backend (>= 3.2.0, < 5.0)
