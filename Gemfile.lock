@@ -1,16 +1,17 @@
 GIT
-  remote: https://github.com/TCnet/spree_dislu_link.git
-  revision: 1dfee785e0ff62d9d38132ed1def5ddf8eac4c86
+  remote: https://github.com/TCnet/spree_dislu_album.git
+  revision: 632cfd837c6d38bb7f15e4851e07bce9eda06c04
   specs:
-    spree_dislu_link (0.0.1.alpha)
+    spree_dislu_album (0.0.3.alpha)
       spree_backend (>= 3.2.0, < 5.0)
       spree_core (>= 3.2.0, < 5.0)
       spree_extension
 
-PATH
-  remote: ../spree_dislu_album
+GIT
+  remote: https://github.com/TCnet/spree_dislu_link.git
+  revision: 1dfee785e0ff62d9d38132ed1def5ddf8eac4c86
   specs:
-    spree_dislu_album (0.0.3.alpha)
+    spree_dislu_link (0.0.1.alpha)
       spree_backend (>= 3.2.0, < 5.0)
       spree_core (>= 3.2.0, < 5.0)
       spree_extension
