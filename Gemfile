@@ -24,7 +24,7 @@ gem 'jbuilder', '~> 2.7'
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
-gem 'unicorn', '~> 4.8.3'
+gem 'unicorn', '~> 5.5.1'
 
 gem 'spree', '~> 4.0'
 gem 'spree_auth_devise', '~> 4.0'
