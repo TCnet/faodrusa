@@ -32,6 +32,12 @@ gem 'spree_gateway', '~> 3.6'
 gem 'spree_dislu_link', github: 'TCnet/spree_dislu_link'
 gem 'spree_dislu_album', github: 'TCnet/spree_dislu_album'
 gem 'spree_analytics_trackers', '~> 1.0'
+gem 'spree_static_content', github: 'TCnet/spree_static_content'
+gem 'spree_variant_options', github: 'TCnet/spree_variant_options'
+gem 'spree_i18n', github: 'TCnet/spree_i18n'
+gem 'spree_paypal_express', github: 'spree-contrib/better_spree_paypal_express'
+
+
 gem 'rubyzip', '>= 1.2.1', '< 2.0.0'
 gem 'roo','~> 2.8.0'
 gem 'roo-xls'

@@ -11,3 +11,6 @@
 //= require_tree .
 //= require spree/backend/spree_dislu_link
 //= require spree/backend/spree_dislu_album
+//= require spree/backend/spree_i18n
+//= require spree/backend/spree_variant_options
+//= require spree/backend/spree_paypal_express
