@@ -36,6 +36,8 @@ gem 'spree_static_content', github: 'TCnet/spree_static_content'
 gem 'spree_variant_options', github: 'TCnet/spree_variant_options'
 gem 'spree_i18n', github: 'TCnet/spree_i18n'
 gem 'spree_paypal_express', github: 'spree-contrib/better_spree_paypal_express'
+gem 'spree_sitemap', github: 'spree-contrib/spree_sitemap'
+gem 'whenever', require: false
 
 
 gem 'rubyzip', '>= 1.2.1', '< 2.0.0'
